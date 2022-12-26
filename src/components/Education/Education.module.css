@@ -1,0 +1,37 @@
+/* Education Section */
+.education {
+    width: 60vw;
+}
+
+.education .education-header {
+    font-family: "Lobster", cursive;
+    font-size: 4.8rem;
+    color: #ff9d00;
+    text-decoration: underline;
+    margin-bottom: 4rem;
+}
+
+.education .uni {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-context {
+    font-size: 3.2rem;
+    font-family: 'Kanit', sans-serif;
+    line-height: 6rem;
+}
+
+.inside-context a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.inside-context img {
+    width: 10%;
+}
+

@@ -1,0 +1,32 @@
+.example-port {
+  width: 80vw;
+  margin-bottom: 8rem;
+}
+
+.example-port .port-header {
+  font-family: "Lobster", cursive;
+  font-size: 4.8rem;
+  color: #ff9d00;
+  text-decoration: underline;
+  margin-bottom: 4rem;
+}
+
+.example-port .example-project {
+  display: grid;
+  font-family: "Kanit", sans-serif;
+
+  align-items: center;
+  grid-template-rows: 1fr 1 fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.example-project h3 {
+  font-size: 3.2rem;
+  margin-bottom: .8rem;
+}
+
+.example-project .generation,.example-project .before-generation{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

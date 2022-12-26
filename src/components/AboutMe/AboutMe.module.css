@@ -1,0 +1,40 @@
+/* About Me Section */
+.about-me {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8rem;
+}
+
+/* About Me image */
+.about-me .about-me-img img{
+    width: 32rem;
+    border-radius: 50%;
+}
+
+/* About Me detail */
+.about-me-detail{
+    width: 44vw;
+}
+
+.about-me-detail .detail-fullname{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 8.8rem;
+}
+.about-me-detail .detail-fullname h1{
+    font-size: 6.4rem;
+}
+
+.about-me-detail .detail-fullname h3{
+    font-size: 3.2rem;
+    color: red;
+}
+
+.about-me-detail .detail-context{
+    text-align: justify;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+}
