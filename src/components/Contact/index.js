@@ -29,7 +29,7 @@ const Contact = () => {
         <div className={`${styles["contact-section"]} ${styles["contact3"]}`}>
           <a href="mailto:thepsirin.naw@gmail.com" target="blank">
             <img src={email} alt="github-img" />
-            <p className={styles["contact-text"]}>ThepsirinN</p>
+            <p className={styles["contact-text"]}>Thepsirin.naw@gmail.com</p>
           </a>
         </div>
       </div>
