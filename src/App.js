@@ -1,4 +1,5 @@
 import { MyPageContext } from "./context/PageContext";
+import { useEffect } from "react";
 import Nav from "./components/Nav";
 import AboutMe from "./components/AboutMe";
 import Expreience from "./components/Expreience";
@@ -10,7 +11,15 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
-  const { page } = MyPageContext();
+  const { page,setPageValue } = MyPageContext();
+
+  useEffect(() => {
+    setPageValue("🧑About")
+    /* return () => {
+    } */
+  }, [])
+  
+  
   return (
     <div className="App">
       <Nav />
